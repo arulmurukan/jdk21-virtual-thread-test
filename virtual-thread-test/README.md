@@ -1,7 +1,7 @@
 This http://localhost:8080/3 api will call other api "go-httpbin/delay/3" (https://github.com/mccutchen/go-httpbin)
 which always return response with 3sec delay.
 
-Executed the tests with/without virtual threads enabled.
+Executed the tests with/without virtual threads enabled. (Macbook Pro, 2.6GHz, 6-Core)
 
 Conclusion: Winner virtual threads
 
@@ -32,3 +32,5 @@ Requests/sec:	32.3782
 Total data:	587.89 KiB
 Size/request:	602 B
 Size/sec:	19.03 KiB
+
+
